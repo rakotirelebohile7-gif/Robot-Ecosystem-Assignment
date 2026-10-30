@@ -1,5 +1,7 @@
-public class BatteryLowException extends Exception {
-    public BatteryLowException(String message) {
+public class BatteryLowException extends Exception 
+{
+    public BatteryLowException(String message) 
+    {
         super(message);
     }
 }
